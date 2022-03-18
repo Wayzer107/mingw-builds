@@ -1,6 +1,7 @@
 name: x86_64 and i686 release builds
 
-on: [push, pull_request]
+on:
+  workflow_dispatch:
 
 jobs:
   build:
